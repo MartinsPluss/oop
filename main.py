@@ -12,5 +12,7 @@ app_user_two.get_user_info()
 app_user_one.change_password("123123")
 app_user_one.get_user_info()
 
+# create an object from a class Post
+
 new_post = Post("on a secret mission today", app_user_two.name)
 new_post.get_post_info()
